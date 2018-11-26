@@ -22,5 +22,6 @@ class TestCoin (unittest.TestCase):
         self.assertIn(self.coin.get_face(), self.values)
 
 
+
 if __name__ == '__main__':
     unittest.main()
